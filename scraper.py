@@ -1,5 +1,11 @@
 import requests
 import warnings 
+import smtplib
+import os
+import json
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 youtube_link ='https://www.youtube.com/feed/trending'
 
